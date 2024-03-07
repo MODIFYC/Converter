@@ -1,0 +1,71 @@
+.app{
+  background-color: #f0f0f0;
+  position: relative;
+  height: 100vh;
+  /* 화면 전체 높이를 채우도록 설정 */
+  display: flex;
+  justify-content: center;
+  /* 수평 가운데 정렬 */
+  align-items: center;
+  /* 수직 가운데 정렬 */
+}
+
+.wrapper {
+  width: 400px;
+    max-width: 90%;
+    background-color: rgb(187, 164, 164);
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.select-style {
+  width: 50%;
+  padding: 10px;
+  font-size: 14px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f0f0f091;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  /* 그림자 효과 추가 */
+  outline: none;
+}
+
+
+.input-container {
+  margin-bottom: 10px;
+}
+
+.input-container label {
+  font-weight: bold;
+}
+
+.input-container input {
+  width: calc(100% - 40px);
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 5px;
+}
+
+.input-container button {
+  padding: 10px 20px;
+  font-size: 14px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.input-container button:hover {
+  background-color: #0056b3;
+}
